@@ -1,0 +1,47 @@
+.profileCardContainer{
+	width:874px;
+	height:200px;
+	background-color:#dedede;
+	border:1px solid #a0a0a0;
+	padding:10px;
+	font-family:sans-serif;
+	font-size:14px;
+}
+#dp{
+	float:left;
+	height:200px;
+	width:150px;
+}
+#prof{
+	height:200px;
+	width:362px;
+	float:left;
+	color:#606060;
+}
+#prof ul{
+	margin:0;
+	padding:0 0 0 10px;
+	font-size:14px;
+}
+#prof ul li{
+	list-style:none;
+	border:1px solid;
+	border-top-color:#f0f0f0;
+	border-bottom-color:#cccccc;
+	border-left-color:#bbbbbb;
+	border-right-color:#aaaaaa;
+	overflow:auto;
+}
+#prof ul li b{
+	padding:10px 5px 10px 5px;
+	width:130px;
+	display:inline-block;
+	color:#707070;
+}
+#prof ul li div{
+	width:204px;
+	float:right;
+}
+#addressContainer{
+	display:block;
+}

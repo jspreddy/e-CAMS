@@ -1,0 +1,219 @@
+/*************************************************************
+* written by -=jspreddy=- 
+* site : www.jspreddy.info
+* mail : jspreddy@yahoo.com
+* Client: DRKGroup
+* HTML, PHP
+* CSS version: CSS3 experimental tags
+**************************************************************/
+#d_pannel{ /*** This is the main container for the module ***/
+	background-color:#eeeeee;
+	width:892px;
+	min-height:500px;
+	border:2px dashed #aaaaaa;
+	font-size:11px;
+}
+#d_title{ /*** This is the Title Image being displayed at the top of the module ***/
+	height:110px;
+	width:892px;
+	margin:0;
+	padding:5px 0;
+	background-image:url('../images/dc2.png');
+	background-repeat:no-repeat;
+	background-position:center top;
+	border-bottom:2px dashed #aaaaaa;
+}
+/******************* Styles of the table for adding download **********************/
+#d_table{
+	margin:0 auto;
+	margin-top:20px;
+	border:1px solid #8050a0;
+	box-shadow:0px 0px 10px #a0a0a0;
+}
+#d_table tr{
+	height:30px;
+}
+#d_file, #d_name, #d_category, #d_year, #d_branches {/*** The error highlighters ***/
+	width:3px;
+}
+#d_msg{ /*** The error Msg displayer for the add, edit pages ***/
+	width:428px;
+	color:#ff1010;
+	margin:0 auto;
+	min-height:200px;
+}
+#d_msg_full_width{
+	width:892px;
+	color:#ff1010;
+	height:20px;
+	background-color:#eeeeee;
+	border-bottom:2px dashed #aaaaaa;
+}
+/*************************************** Search Container ***************************************/
+#d_search_container{
+	min-height:180px;
+	overflow:auto;
+	background-color:#dddddd;
+	border-bottom:2px dashed #aaaaaa;
+	color:#8050a0;
+}
+#d_search{
+	width:430px;
+	height:180px;
+	float:left;
+}
+#d_search_title{
+	font-size:12px;
+	color:#8050a0;
+	text-align:left;
+	font-weight:bold;
+	padding:5px;
+}
+#d_search table{
+	margin:0 auto;
+	border:1px solid #8050a0;
+}
+#d_search table tr{
+	height:25px;
+}
+#d_search_go, #d_go_back, #d_view_file{ /*The button style for anchor tag*/
+	font-size:12px;
+	text-decoration:none;
+	padding:3px 15px;
+	color:#101010;
+	background-color:#ffffff;
+	box-shadow:0px 0px 1px #606060 inset;
+	border:1px solid #505050;
+	border-radius:3px;
+	background-image: linear-gradient(bottom, rgb(235,235,235) 0%, rgb(255,255,255) 50%);
+	background-image: -o-linear-gradient(bottom, rgb(235,235,235) 0%, rgb(255,255,255) 50%);
+	background-image: -moz-linear-gradient(bottom, rgb(235,235,235) 0%, rgb(255,255,255) 50%);
+	background-image: -webkit-linear-gradient(bottom, rgb(235,235,235) 0%, rgb(255,255,255) 50%);
+	background-image: -ms-linear-gradient(bottom, rgb(235,235,235) 0%, rgb(255,255,255) 50%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, rgb(235,235,235)),
+		color-stop(0.5, rgb(255,255,255))
+	);
+}
+#d_search_go:hover, #d_go_back:hover, #d_view_file:hover{
+	box-shadow:0px 0px 3px #046380 inset;
+}
+#LMineContainer{
+	float:right;
+	display:block;
+	height:14px;
+	font-size:12px;
+	line-height:13px;
+	padding:5px 15px;
+	width:100px;
+	border:1px solid #8050a0;
+}
+#list_only_mine{
+	margin:0px 5px 0px 0px;
+	float:left;
+}
+#d_search_note{
+	width:440px;
+	border-left:2px dashed #aaaaaa;
+	height:160px;
+	padding:0px 20px 20px 0px;
+	float:right;
+}
+/********************************* list table styles **************************************/
+.bold{font-weight:bold;}
+#d_list{
+	width:auto;
+	border:1px solid #afafaf;
+	margin:0 auto;
+	border-collapse:collapse;
+}
+#d_list_head{
+	border-bottom:2px dashed #aaaaaa;
+	background-color:#262626;
+	background-image: linear-gradient(bottom, rgb(26,26,26) 50%, rgb(71,71,71) 50%);
+	background-image: -o-linear-gradient(bottom, rgb(26,26,26) 50%, rgb(71,71,71) 50%);
+	background-image: -moz-linear-gradient(bottom, rgb(26,26,26) 50%, rgb(71,71,71) 50%);
+	background-image: -webkit-linear-gradient(bottom, rgb(26,26,26) 50%, rgb(71,71,71) 50%);
+	background-image: -ms-linear-gradient(bottom, rgb(26,26,26) 50%, rgb(71,71,71) 50%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.5, rgb(26,26,26)),
+		color-stop(0.5, rgb(71,71,71))
+	);
+	color:#ffffff;
+	height:30px;
+	text-shadow:0px 0px 1px #000000;
+	box-shadow:0px 0px 2px #101010;
+}
+/******************************************/
+.d_sno		{width:25px;}
+.d_dname	{width:315px;}
+.d_cat		{width:100px;}
+.d_branch	{width:180px;}
+.d_years	{width:50px;}
+.d_date		{width:62px;}
+.d_view		{width:26px;}
+.d_edit		{width:26px;}
+.d_del		{width:70px;}
+/******************************************/
+#d_list td{
+	
+	border:none;
+	height:25px;
+	padding:2px;
+}
+#d_list tr{border-bottom:1px dotted #aaaaaa;}
+.d_list_row:hover{
+	background-color:#cccccc;
+	box-shadow:0px 0px 10px #101010;
+}
+.d_viewLink{
+	background-image:url('../images/view.gif');
+	display:block;
+	height:15px;
+	width:12px;
+	margin:0 auto;
+}
+.d_editLink{
+	background-image:url('../images/edit.png');
+	display:block;
+	height:16px;
+	width:16px;
+	margin:0 auto;
+}
+.d_delLink{
+	background-image:url('../images/drop.png');
+	display:block;
+	height:16px;
+	width:16px;
+	float:left;
+}
+.d_owner_mini{
+	float:left;
+	margin-left:6px;
+}
+.d_acenter{text-align:center;}
+/************************************* FOOTER STYLE **************************************/
+.d_footer{
+	height:12px;
+	color:#161616;
+	font-size:10px;
+	font-weight:normal;
+	text-align:right;
+	padding-top:3px;
+}
+/*************************************************************
+* written by -=jspreddy=- 
+* site : www.jspreddy.info
+* mail : jspreddy@yahoo.com
+* Client: DRKGroup
+* HTML, PHP
+* CSS version: CSS3 experimental tags
+**************************************************************/

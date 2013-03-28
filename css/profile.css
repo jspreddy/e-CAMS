@@ -1,0 +1,112 @@
+/*************************************************************
+* written by -=jspreddy=- 
+* site : www.jspreddy.info
+* mail : jspreddy@yahoo.com
+* Client: DRKGroup
+* HTML, PHP
+* CSS version: CSS3 experimental tags
+**************************************************************/
+/**************************************** Structure start ************************************/
+body{
+	margin:0 auto;
+	padding:0;
+	border:0;
+	background-color:#ffffff;
+	font-family:Georgia,serif;
+	font-size: 12px;
+	background-color:#808080;
+}
+a{
+	text-decoration:none;
+	color:#606060;
+}
+a:hover{
+	text-shadow:1px 1px 10px #101010;
+}
+.portrait{
+	float:left;
+	padding:5px;
+	background-color:#ffffff;
+	border-right:1px solid #101010;
+}
+h3{
+	font-size:18px;
+	font-weight:bolder;
+	color:#c2fa3b;
+	line-height:15px;
+	padding:10px 10px;
+	background-color:#5d5d5d;
+	border-bottom:1px solid #303030;
+	margin:0;
+	text-align:center;
+	text-shadow:1px 1px 1px #303030;
+}
+#page{
+	margin:0 auto;
+	height:900px;
+	border:0;
+}
+#title{
+	font-size:20px;
+	color:#f0f0f0;
+	background-color:#5d5d5d;
+	padding:28px;
+	text-shadow:1px 1px 1px #303030;
+	border-bottom:1px solid #101010;
+}
+#title a{
+	color:#c2fa3b;
+	font-size:25px;
+	text-decoration:none;
+}
+.container{
+	float:left;
+	overflow:auto;
+	width:671px;
+	border-bottom:1px solid #101010;
+	border-right:1px solid #101010;
+}
+#detailsContainer{
+	margin:25px;
+	width:400px;
+	border:5px solid #f0f0f0;
+	background-color:#e0e0e0;
+	float:left;
+}
+ul{
+	margin:0;
+	padding:1px;
+	border:1px solid #a0a0a0;
+}
+li{
+	list-style:none;
+	border-bottom:1px solid #a0a0a0;
+	border-top:1px solid #f0f0f0;
+	border-left:1px solid #efefef;
+	border-right:1px solid #afafaf;
+	background-color:#ffffff;
+	color:#606060;
+}
+i{
+	font-size:11px;
+	color:#ffffff;
+	margin-left:10px;
+}
+.detail{
+	display:inline-block;
+	font-size:16px;
+	font-weight:normal;
+	color:#ef870e;
+	line-height:15px;
+	padding:10px 10px;
+	background-color:#222222;
+	width:100px;
+	text-align:right;
+	text-shadow:1px 1px 1px #000000;
+	box-shadow:0 1px 4px #000000;
+	margin-right:30px;
+}
+.smedia{
+	display:inline-block;
+	margin-right:5px;
+}
